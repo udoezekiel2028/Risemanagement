@@ -49,16 +49,16 @@ function HomePage() {
               <h3>Your story is<br /><em>worth telling.</em></h3>
               <p>For the writer with an idea, a draft, or a voice waiting to be heard. Ashley helps you get past the blocks, find your words, and make a plan for the work ahead.</p>
               <ul className="path-points"><li>Find your authentic writing voice</li><li>Shape your ideas and create structure</li><li>Get support navigating publishing</li></ul>
-              <div className="pathway-card-bottom"><div className="mini-coach"><img src={`${import.meta.env.BASE_URL}images/ashley.jpg`} alt="" /><span>With Ashley Brown</span></div><Link href="%BASE_URL%ashely/" className="circle-arrow" aria-label="Explore writing coaching"><ArrowRight size={19} /></Link></div>
-              <Link href="%BASE_URL%ashely/" className="card-full-link" aria-label="Explore writing coaching with Ashley" />
+              <div className="pathway-card-bottom"><div className="mini-coach"><img src={`${import.meta.env.BASE_URL}images/ashley.jpg`} alt="" /><span>With Ashley Brown</span></div><Link href="/ashely/" className="circle-arrow" aria-label="Explore writing coaching"><ArrowRight size={19} /></Link></div>
+              <Link href="/ashely/" className="card-full-link" aria-label="Explore writing coaching with Ashley" />
             </article>
             <article className="pathway-card relationship-card">
               <div className="pathway-topline"><span className="path-icon"><HeartHandshake size={19} /></span><span>02 / Relationships</span></div>
               <h3>Feel closer to<br /><em>the life you want.</em></h3>
               <p>For singles and couples looking for more confidence, connection, or intimacy. Coralie offers frank, compassionate one-to-one coaching tailored to you.</p>
               <ul className="path-points"><li>Build confidence in dating and connection</li><li>Navigate challenges in a committed relationship</li><li>Reconnect with intimacy and desire</li></ul>
-              <div className="pathway-card-bottom"><div className="mini-coach"><img src={`${import.meta.env.BASE_URL}images/coralie.jpeg`} alt="" /><span>With Coralie Fox</span></div><Link href="%BASE_URL%coralie/" className="circle-arrow" aria-label="Explore relationship coaching"><ArrowRight size={19} /></Link></div>
-              <Link href="%BASE_URL%coralie/" className="card-full-link" aria-label="Explore relationship coaching with Coralie" />
+              <div className="pathway-card-bottom"><div className="mini-coach"><img src={`${import.meta.env.BASE_URL}images/coralie.jpeg`} alt="" /><span>With Coralie Fox</span></div><Link href="/coralie/" className="circle-arrow" aria-label="Explore relationship coaching"><ArrowRight size={19} /></Link></div>
+              <Link href="/coralie/" className="card-full-link" aria-label="Explore relationship coaching with Coralie" />
             </article>
           </div>
         </section>
@@ -71,7 +71,7 @@ function HomePage() {
               <h2>Different journeys.<br /><em>A shared belief in you.</em></h2>
               <p>Ashley Brown and Coralie Fox are best friends, published writers, and coaches based in London. Rise grew from their own experience of being supported—and their commitment to helping others move forward in a way that feels true to them.</p>
               <p>Ashley works with writers to find freedom, structure, and their authentic voice. Coralie supports people who want to create more fulfilling intimate relationships. Two distinct kinds of coaching, held together by a down-to-earth, personal approach.</p>
-              <div className="founder-links"><Link href="%BASE_URL%ashely/">Meet Ashley <ArrowRight size={16} /></Link><Link href="%BASE_URL%coralie/">Meet Coralie <ArrowRight size={16} /></Link></div>
+              <div className="founder-links"><Link href="/ashely/">Meet Ashley <ArrowRight size={16} /></Link><Link href="/coralie/">Meet Coralie <ArrowRight size={16} /></Link></div>
             </div>
           </div>
         </section>
